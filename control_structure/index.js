@@ -1,5 +1,3 @@
-
-
 /*Creating a script that simulates a password verification system. 
 The user must enter a password and the system must verify that it meets the following 
 
@@ -11,7 +9,6 @@ Criteria:
 
 If the password meets all criteria, the system should display a success message. 
 Otherwise, it should display an error message indicating which criteria was not met.*/
-
 let password = window.prompt('Inform your password');
 
 if (password.length < 8) {
